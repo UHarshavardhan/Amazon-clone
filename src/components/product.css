@@ -1,0 +1,15 @@
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-right: 40px;
+    padding: 40px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

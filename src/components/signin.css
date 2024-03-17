@@ -1,0 +1,15 @@
+.form{
+display: flex;
+justify-content:center;
+align-items: center;
+height: 100vh;
+border: 5px;
+
+}
+
+form{
+border: 5px;
+background-color: white;
+border-radius: 10%;
+}
+
