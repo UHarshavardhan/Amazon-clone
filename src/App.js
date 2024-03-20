@@ -6,6 +6,7 @@ import SignIn from './components/singin'; // Corrected filename
 import Product from './components/product'; // Corrected filename
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/home';
+import Categories from './components/categories'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path='/eshop/signin' element={<SignIn/>} />
       <Route path='/eshop/signup' element={<Signup/>} />
       <Route path='/eshop/product' element={<Product/>} />
+      <Route path='eshop/products/:id' element={<Categories/>}/>
     </Routes>
   );
 }
