@@ -13,3 +13,78 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    box-shadow: 3px 3px 10px 2px rgba(236, 229, 229, 0.911);
+    height: 50px;
+    
+    align-items: center;
+    
+}
+.search{
+    display: flex;
+    justify-content: end;
+    
+}
+input[type="search" i]{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+button{
+    border: 0px;
+    background-color: white;
+
+}
+
+button :hover {
+    background-color: grey;
+    cursor: pointer;
+}
+.Togglescreen{
+   display: none;
+   width: 250px;
+   height: 100vh;
+}
+
+.Togglescreen {
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    margin-top: 20px;
+
+  }
+  .Togglescreen.active {
+    left: 0;
+    display: flex;
+
+    transition: 350ms;
+  }
+  .cross{
+    margin: 20px 0 0 30px;
+  }
+  .menu-content{
+    margin-top: 20px;
+  }
+
+  .Categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    box-shadow: 3px 5px 10px 2px rgba(239, 233, 233, 0.985);
+height: 50px;
+margin-top: 10px;
+  }
+.categories-button:hover{
+    background-color: rgba(242, 244, 247, 0.6);
+}
