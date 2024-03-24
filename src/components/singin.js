@@ -13,7 +13,7 @@ const SignIn = () => {
     const navigate=useNavigate()
 
     const handleData = (e) => {
-        e.preventDefault(); // Prevent default form submission behavior
+        e.preventDefault(); 
 
         const data = {
             email,
